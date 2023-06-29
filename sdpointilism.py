@@ -18,7 +18,6 @@ count=0
 prompt="isometric city extremely detailed simcity, colorful, fantasy, particle lights, boldly outlined, high resolution, uhd"
 steps=50
 strength=0.3
-mask_image_arr = Image.open('img/mask.png')
 
 def get_image_size():
     im = Image.open(IMAGES_FOLDER+'/'+in_file)
